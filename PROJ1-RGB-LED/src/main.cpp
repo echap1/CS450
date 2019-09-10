@@ -18,8 +18,6 @@ void setup() {
 
     pinMode(X_PIN, INPUT);
     pinMode(Y_PIN, INPUT);
-
-    Serial.begin(9600);
 }
 
 //HSV Values of the LED
@@ -59,7 +57,6 @@ void updateLEDColor(float dt) {
 
     if (v < 0) v = 0;
     if (v > 1) v = 1;
-
 }
 
 void writeColor(int r, int g, int b) {
