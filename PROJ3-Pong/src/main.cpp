@@ -161,7 +161,9 @@ void moveBall() {
 
 void resetBall(bool player1) {
     ball_vx = 1;
-    ball_vy = 0.7 * (((double) random(-1000, 1000)) / 1000.0);
+    ball_vy = 0.7 * (((double) random(500, 1000)) / 1000.0);
+
+    if (random(0, 2) == 1) ball_vy = -ball_vy;
 
     ball_y = 4;
     ball_sy = 4;
