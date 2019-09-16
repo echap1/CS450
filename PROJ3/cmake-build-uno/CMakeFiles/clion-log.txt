@@ -1,0 +1,4 @@
+/home/ethan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=uno -G "CodeBlocks - Unix Makefiles" /media/OneDrive/OneDrive/Coding/CS450/PROJ3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/OneDrive/OneDrive/Coding/CS450/PROJ3/cmake-build-uno

@@ -27,6 +27,6 @@ void loop() {
 
 void setLEDs(int val) {
     digitalWrite(LATCH_PIN, LOW);
-    shiftOut(DATA_PIN, CLOCK_PIN, MSBFIRST, val);
+    shiftOut(DATA_PIN, CLOCK_PIN, LSBFIRST, val);
     digitalWrite(LATCH_PIN, HIGH);
 }
