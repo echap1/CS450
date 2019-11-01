@@ -2,20 +2,20 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="DefaultLinux" targetName="PLATFORMIO_MONITOR" />
-      <config projectName="DefaultLinux" targetName="PLATFORMIO_PROGRAM" />
-      <config projectName="DefaultLinux" targetName="PLATFORMIO_UPDATE_ALL" />
+      <config projectName="DefaultLinux" targetName="PLATFORMIO_UPLOADFS" />
+      <config projectName="DefaultLinux" targetName="PLATFORMIO_DEVICE_LIST" />
       <config projectName="DefaultLinux" targetName="PLATFORMIO_CLEAN" />
       <config projectName="DefaultLinux" targetName="PLATFORMIO_TEST" />
-      <config projectName="DefaultLinux" targetName="PLATFORMIO_DEVICE_LIST" />
+      <config projectName="DefaultLinux" targetName="PLATFORMIO_MONITOR" />
       <config projectName="DefaultLinux" targetName="PLATFORMIO" />
-      <config projectName="DefaultLinux" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
+      <config projectName="DefaultLinux" targetName="PLATFORMIO_PROGRAM" />
       <config projectName="DefaultLinux" targetName="PLATFORMIO_BUILD_VERBOSE" />
-      <config projectName="DefaultLinux" targetName="PLATFORMIO_UPLOADFS" />
-      <config projectName="DefaultLinux" targetName="DEBUG" />
+      <config projectName="DefaultLinux" targetName="PLATFORMIO_UPDATE_ALL" />
       <config projectName="DefaultLinux" targetName="DefaultLinux" />
       <config projectName="DefaultLinux" targetName="PLATFORMIO_UPLOAD" />
+      <config projectName="DefaultLinux" targetName="DEBUG" />
       <config projectName="DefaultLinux" targetName="PLATFORMIO_BUILD" />
+      <config projectName="DefaultLinux" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -25,20 +25,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Stepper/README.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Stepper/examples/MotorKnob/MotorKnob.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Stepper/examples/stepper_oneRevolution/stepper_oneRevolution.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Stepper/examples/stepper_oneStepAtATime/stepper_oneStepAtATime.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Stepper/examples/stepper_speedControl/stepper_speedControl.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Stepper/keywords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Stepper/library.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Stepper/src/Stepper.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Stepper/src/Stepper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJ3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/DefaultLinux.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/DefaultLinux.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/DefaultLinux.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/DefaultLinux.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/DefaultLinux.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/DefaultLinux.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD_VERBOSE.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD_VERBOSE.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_CLEAN.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_CLEAN.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_DEVICE_LIST.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_DEVICE_LIST.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_MONITOR.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_MONITOR.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_PROGRAM.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_PROGRAM.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_TEST.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_TEST.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOAD.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOAD.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOADFS.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOADFS.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-uno/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-uno/Makefile" afterDir="false" />
     </list>
-    <ignored path="platformio.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/cmake-build-uno/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,32 +65,8 @@
   <component name="FavoritesManager">
     <favorites_list name="DefaultLinux" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/CMakeListsUser.txt" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
-      </list>
-    </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -89,6 +75,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectId" id="1RP6RDi3Xi1jmMkWpSqQBeSodKu" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -106,48 +93,6 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DefaultLinux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJ5-Stepper-Motor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DefaultLinux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJ5-Stepper-Motor" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DefaultLinux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJ5-Stepper-Motor" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DefaultLinux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJ5-Stepper-Motor" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Stepper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DefaultLinux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJ5-Stepper-Motor" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Stepper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -288,44 +233,23 @@
       <workItem from="1568744738143" duration="2257000" />
       <workItem from="1568748376628" duration="1070000" />
       <workItem from="1568907741196" duration="1071000" />
+      <workItem from="1569556378137" duration="649000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19899000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="-8" width="3414" height="2062" extended-state="6" />
-    <layout>
-      <window_info id="Project" order="0" visible="true" weight="0.19507803" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3294893" />
-      <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="CMake" order="3" weight="0.23997803" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5001501" side_tool="true" weight="0.31521142" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Messages" order="6" sideWeight="0.4998499" visible="true" weight="0.18725975" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.3294893" />
-      <window_info anchor="right" id="Database" order="0" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" />
-      <window_info active="true" id="Project" order="2" visible="true" weight="0.17081958" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="CMake" order="3" weight="0.23997803" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Messages" order="6" visible="true" weight="0.3294893" />
-      <window_info anchor="right" id="Database" order="0" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -334,84 +258,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
-          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeListsUser.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeListsPrivate.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platformio.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoavr/cores/arduino/HardwareSerial.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoavr/cores/arduino/wiring.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoavr/cores/arduino/HardwareSerial.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.platformio/packages/framework-arduinoavr/cores/arduino/Arduino.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Stepper/Stepper.cpp" />
-    <entry file="file://$PROJECT_DIR$/lib/Stepper/src/Stepper.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Stepper/src/Stepper.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="174" column="14" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

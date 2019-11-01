@@ -1,0 +1,14 @@
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/edit_cache.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/rebuild_cache.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_UPLOADFS.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_PROGRAM.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_BUILD_VERBOSE.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_BUILD.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_MONITOR.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_UPLOAD.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/Hexapod.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_CLEAN.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_DEVICE_LIST.dir
+/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_TEST.dir
