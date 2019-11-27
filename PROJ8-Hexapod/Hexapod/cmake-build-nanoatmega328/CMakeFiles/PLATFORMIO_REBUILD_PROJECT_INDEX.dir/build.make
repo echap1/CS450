@@ -43,10 +43,10 @@ RM = /home/ethan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.18/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/OneDrive/OneDrive/Coding/CS450/Hexapod
+CMAKE_SOURCE_DIR = /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328
+CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328
 
 # Utility rule file for PLATFORMIO_REBUILD_PROJECT_INDEX.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nan
 include CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/progress.make
 
 CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX:
-	cd /media/OneDrive/OneDrive/Coding/CS450/Hexapod && /home/ethan/.local/bin/pio -f -c clion init --ide clion
+	cd /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod && /home/ethan/.local/bin/pio -f -c clion init --ide clion
 
 PLATFORMIO_REBUILD_PROJECT_INDEX: CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX
 PLATFORMIO_REBUILD_PROJECT_INDEX: CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/clean:
 .PHONY : CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/clean
 
 CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/depend:
-	cd /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/OneDrive/OneDrive/Coding/CS450/Hexapod /media/OneDrive/OneDrive/Coding/CS450/Hexapod /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/depend
 

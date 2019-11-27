@@ -1,4 +1,4 @@
-# Install script for directory: /media/OneDrive/OneDrive/Coding/CS450/Hexapod
+# Install script for directory: /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

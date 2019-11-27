@@ -48,10 +48,10 @@ RM = /home/ethan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.18/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/OneDrive/OneDrive/Coding/CS450/Hexapod
+CMAKE_SOURCE_DIR = /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328
+CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328/CMakeFiles /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328/CMakeFiles /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -293,6 +293,33 @@ lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.cpp.s:
 	$(MAKE) -f CMakeFiles/Hexapod.dir/build.make CMakeFiles/Hexapod.dir/lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.cpp.s
 .PHONY : lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.cpp.s
 
+src/controller.o: src/controller.cpp.o
+
+.PHONY : src/controller.o
+
+# target to build an object file
+src/controller.cpp.o:
+	$(MAKE) -f CMakeFiles/Hexapod.dir/build.make CMakeFiles/Hexapod.dir/src/controller.cpp.o
+.PHONY : src/controller.cpp.o
+
+src/controller.i: src/controller.cpp.i
+
+.PHONY : src/controller.i
+
+# target to preprocess a source file
+src/controller.cpp.i:
+	$(MAKE) -f CMakeFiles/Hexapod.dir/build.make CMakeFiles/Hexapod.dir/src/controller.cpp.i
+.PHONY : src/controller.cpp.i
+
+src/controller.s: src/controller.cpp.s
+
+.PHONY : src/controller.s
+
+# target to generate assembly for a file
+src/controller.cpp.s:
+	$(MAKE) -f CMakeFiles/Hexapod.dir/build.make CMakeFiles/Hexapod.dir/src/controller.cpp.s
+.PHONY : src/controller.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -343,6 +370,9 @@ help:
 	@echo "... lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.o"
 	@echo "... lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.i"
 	@echo "... lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.s"
+	@echo "... src/controller.o"
+	@echo "... src/controller.i"
+	@echo "... src/controller.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

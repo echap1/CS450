@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Hexapod.dir/lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.cpp.o"
+  "CMakeFiles/Hexapod.dir/src/controller.cpp.o"
   "CMakeFiles/Hexapod.dir/src/main.cpp.o"
   "Hexapod"
   "Hexapod.pdb"

@@ -43,10 +43,10 @@ RM = /home/ethan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.18/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest
+CMAKE_SOURCE_DIR = /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328
+CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest/cmake-build-nanoatmega328
 
 # Utility rule file for PLATFORMIO_UPDATE_ALL.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-bui
 include CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/progress.make
 
 CMakeFiles/PLATFORMIO_UPDATE_ALL:
-	cd /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest && /home/ethan/.local/bin/pio -f -c clion update
+	cd /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest && /home/ethan/.local/bin/pio -f -c clion update
 
 PLATFORMIO_UPDATE_ALL: CMakeFiles/PLATFORMIO_UPDATE_ALL
 PLATFORMIO_UPDATE_ALL: CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/clean:
 .PHONY : CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/clean
 
 CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/depend:
-	cd /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest/cmake-build-nanoatmega328 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/depend
 

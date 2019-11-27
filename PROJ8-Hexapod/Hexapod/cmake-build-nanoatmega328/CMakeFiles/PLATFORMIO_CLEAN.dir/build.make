@@ -43,10 +43,10 @@ RM = /home/ethan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.18/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/OneDrive/OneDrive/Coding/CS450/Hexapod
+CMAKE_SOURCE_DIR = /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328
+CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328
 
 # Utility rule file for PLATFORMIO_CLEAN.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nan
 include CMakeFiles/PLATFORMIO_CLEAN.dir/progress.make
 
 CMakeFiles/PLATFORMIO_CLEAN:
-	cd /media/OneDrive/OneDrive/Coding/CS450/Hexapod && /home/ethan/.local/bin/pio -f -c clion run --target clean -enanoatmega328
+	cd /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod && /home/ethan/.local/bin/pio -f -c clion run --target clean -enanoatmega328
 
 PLATFORMIO_CLEAN: CMakeFiles/PLATFORMIO_CLEAN
 PLATFORMIO_CLEAN: CMakeFiles/PLATFORMIO_CLEAN.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/PLATFORMIO_CLEAN.dir/clean:
 .PHONY : CMakeFiles/PLATFORMIO_CLEAN.dir/clean
 
 CMakeFiles/PLATFORMIO_CLEAN.dir/depend:
-	cd /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/OneDrive/OneDrive/Coding/CS450/Hexapod /media/OneDrive/OneDrive/Coding/CS450/Hexapod /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/Hexapod/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_CLEAN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328 /media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/Hexapod/cmake-build-nanoatmega328/CMakeFiles/PLATFORMIO_CLEAN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PLATFORMIO_CLEAN.dir/depend
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.cpp" "/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/Hexapod.dir/lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.cpp.o"
-  "/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/src/main.cpp" "/media/OneDrive/OneDrive/Coding/CS450/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/Hexapod.dir/src/main.cpp.o"
+  "/media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest/lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.cpp" "/media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/Hexapod.dir/lib/Adafruit_PWMServoDriver/Adafruit_PWMServoDriver.cpp.o"
+  "/media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest/src/main.cpp" "/media/OneDrive/OneDrive/Coding/CS450/PROJ8-Hexapod/BluetoothTest/cmake-build-nanoatmega328/CMakeFiles/Hexapod.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
